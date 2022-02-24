@@ -1,0 +1,77 @@
+:root {
+  --red: #f54e4e;
+  --green: #4aec8c;
+}
+
+body {
+  background-color: #30384b;
+  color: #eeeeee;
+}
+
+main {
+  padding-top: 50px;
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  display: inline-block;
+  width: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button.settings-button {
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  line-height: 36px;
+}
+
+button.settings-button svg {
+  width: 36px;
+  float: left;
+  margin-right: 5px;
+}
+
+.settings-page {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.settings-page-slider {
+  height: 40px;
+  border: 2px solid var(--red);
+  border-radius: 20px;
+}
+
+.thumb-page-slider {
+  background-color: var(--red);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.settings-page-slider.green {
+  border: 2px solid var(--green);
+}
+.settings-page-slider.green .thumb-page-slider {
+  background-color: var(--green);
+}
+
+.back-button {
+  text-align: center;
+  margin-top: 20px;
+}
